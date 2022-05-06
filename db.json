@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "name": "apple",
+      "description": "fresh",
+      "price": "160"
+    },
+    {
+      "id": 4,
+      "name": "Mobile",
+      "description": "nice",
+      "price": "20000"
+    },
+    {
+      "id": 5,
+      "name": "Laptop",
+      "description": "good",
+      "price": "40000"
+    },
+    {
+      "id": 6,
+      "name": "admin",
+      "description": "kumari",
+      "price": "kumari"
+    },
+    {
+      "id": 7,
+      "name": "pen",
+      "description": "good",
+      "price": "50"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
