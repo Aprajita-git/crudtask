@@ -7,14 +7,11 @@ Make sure you have installed all of the following prerequisites on your developm
 * NodeJS (14.19.0)
 * Angular (10.2.3)
 
-```bash
-$ npm install -g bower
-```
 
 # Download Project
 Cloning Project:
 ```bash
-git clone 
+git clone https://github.com/Aprajita-git/crudtask.git
 ```
 ```bash
 git checkout main
