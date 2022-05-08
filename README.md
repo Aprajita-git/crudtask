@@ -1,27 +1,47 @@
-# Frontend
+# Overview
+* Angular :- It is a JavaScript framework written in TypeScript and maintained by Google. We are using it for UI.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
+# Prerequisites
+Make sure you have installed all of the following prerequisites on your development machine:
+* Git (2.35.1)
+* NodeJS (14.19.0)
+* Angular (10.2.3)
 
-## Development server
+```bash
+$ npm install -g bower
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Download Project
+Cloning Project:
+```bash
+git clone 
+```
+```bash
+git checkout main
+```
+```bash
+cd frontend
+```
+```bash
+npm i
+```
+## TO START SERVER RUN
 
-## Code scaffolding
+```bash
+json-server --watch db.json --port 4000
+```
+# Run Project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Frontend
+Install all dependencies
+```bash
+npm i
+```
+Change directory to frontend
+```bash
+cd frontend
+```
+Run project command
+```bash
+ng s -o
+```
