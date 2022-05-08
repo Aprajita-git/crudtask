@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { MatPaginator } from '@angular/material/paginator';
 import { ApiService } from '../services/api.service';
 import { ProductModel } from './product.model';
 
@@ -11,6 +12,9 @@ import { ProductModel } from './product.model';
 export class ProductsComponent implements OnInit {
 
   formValue !:FormGroup;
+  @ViewChild(MatPaginator)
+  paginator!: MatPaginator;
+
 
   productModelObj:ProductModel = new ProductModel();
   ProductData !:any;
